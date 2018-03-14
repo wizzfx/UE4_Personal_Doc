@@ -48,7 +48,7 @@ section img {
 }
 footer {
   height: 100px;
-  width: 1040px;
+  width: auto;
   padding: 20px;
   margin: auto;
 }
