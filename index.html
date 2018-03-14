@@ -20,8 +20,8 @@
 <body onload='MakeMenu()'> <!-- onload must be in body, target is id="menu"-->
 
     <header>
-      <h1>UE4 Personal Doc</h1>
-      <h2>Documentations for blueprints and other stuff.</h2></h2>
+      <h1><a href="index.html">UE4 Personal Doc</a></h1>
+      <h2><a href="index.html">Documentations for blueprints and other stuff.</a></h2>
     </header>
 
     <nav>
@@ -30,33 +30,7 @@
 
     <section>
         <div id="tutorials">
-          <h3>Press E to Change Color For Button ( Material Dynamic Instance )</h3>
-          <h4>
-          First create master material like below.<br>
-          We will use Green_Red parameter in Material Instance to dynamicaly change colors.</br></h4>
-          <img src="button_change_color\master_material.JPG">
-          <h4>Create Material Instance out of your master.</h4>
-          <img src="button_change_color\material_instance.JPG">
-          <h4>Create new Blueprint Class Actor called ( BP_Button ). Add Mesh ( Box ) to the blueprint scene.
-          <br>Assign Material Instance to this Mesh</br>
-          </h4>
-          <h4>Go to Construction Script tab and put Button Mesh on it. Add node ( Create Dynamic Variable ).<br>
-          Press RMB on Return Value and choose ( Promote to Variable ). Change variable name to ( DynamicVar ) and make it Public ( check Instance Editable option ).</br></h4>
-          <img src="button_change_color\BP_Button_Construction_Script.JPG">
-          <h4>Go to Event Graph. Create custom event called ( Button_Color_OnOff ) like on image below.
-          <br>Scalar Parameter is our Parameter inside Material Instance.</br>
-          Put Parameter Name and its Value. BP_Button is done!
-          </h4>
-          <img src="button_change_color\BP_Button_Event_Graph.JPG">
-          <h4>Create blueptint class actor BP_Monitor. Put simple mesh inside scene ( Box ). You can also create Tooltip ( Text ). And BoxTrigger.
-          <br>Create Variable ( your variables can have different types. Int, float or even Blueprint ).
-          <br>In this case your Variable should have TYPE ( BP_Button_OnOff ), that is just blueprint that we've created previously. Make this variable public.</br>
-          </h4>
-          <img src="button_change_color\BP_Monitor_Viewport.JPG">
-          <img src="button_change_color\BP_Monitor_Event_Graph.JPG">
-          <h4>Last thing. Put two blueprint on the scene. Select BP_Monitor and in Details select Default Button State. It should be our BP_Button_OnOff.</h4>
-          <img src="button_change_color\Set_Default_ButtonState.JPG">
-          <h4>Done. Now if you go into BP_Monitor and activate trigger you will be able to use E key to change color of the button inside BP_Button_OnOff.</h4>
+        <h3>Select tutorial from menu.</h3>
         </div>
     </section>
 
