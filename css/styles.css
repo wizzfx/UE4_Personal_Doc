@@ -9,7 +9,7 @@ body {
 header {
   height: 120px;
   background-color: #fff;
-  width: 1040px;
+  width: auto;
   padding: 20px;
   margin: auto;
 }
@@ -34,12 +34,17 @@ h4 {
   width: auto;
   font-size: 16px;
   font-weight: normal;
+  line-height: 22px;
 }
 section {
   background-color: #fff;
-  width: 1040px;
+  width: auto;
   padding: 20px;
   margin: auto;
+}
+section img {
+  display: block;
+  margin-top: 20px;
 }
 footer {
   height: 100px;
@@ -49,7 +54,7 @@ footer {
 }
 nav {
   margin: auto;
-  width: 1040px;
+  width: auto;
 }
 nav a {
   text-decoration: none;
@@ -62,7 +67,7 @@ nav a:hover {
 }
 nav {
   background-color: #fff;
-  width: 1070px;
+  width: auto;
   padding-left: 10px;
 }
 nav ul {
