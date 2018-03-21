@@ -83,3 +83,7 @@ nav ul {
 nav li {
   padding: 3px;
 }
+ul .note {
+  background-color: #fff7e6;
+  min-width: 200px;
+}
