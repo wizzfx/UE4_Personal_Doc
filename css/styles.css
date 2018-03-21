@@ -89,6 +89,9 @@ ul .note {
   min-width: 200px;
   padding: 10px;
   font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ffebbc;
 }
 .note-head {
   color: #ebba51;
