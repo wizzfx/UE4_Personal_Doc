@@ -29,66 +29,69 @@
     </nav>
 
     <section>
-        <div id="tutorials">
+        <div id='totorials'>
           <h3>Epic Animation Rigging Tool Tips ( Exporting Rigged Character from Maya to UE4 ).</h3>
           <h4>
-            1. build rig.
-            - creating skeleton ( set number of bones ).
-              + add rig modules ( we can add more bones for different type of elements ).
-              + we can save created template at this stage.
-            - creating placement for our skeleton ( putting elements and joints in desired position ).
-              + you can build and rebuild your preview skeleton.
-              + symmetry mode for realtime symmetry ( you can tunr it OFF/ON ).
-              + you can lock mirror for selected elements.
-              + modifying mannequin mesh in mesh mode.
-            - creating rig pose ( rig pose is your T-pose ).
-              + program will try to put your rig from model pose into T-pose, you can modify it for better results.
-              + you can switch between model pose and rig pose.
-            - weighting / skinning.
-              + paint weight tool.
-              + you can export / import skin weights.
-              + you can mirror weights.
-              + you can set range of motions ( it bakes motions for selected bones to timeline in order to test skin weights ).
-            - building control rig.
-              + publishing our character ( set preset, set name of character ). Controls for rig will be automatically build.
-              + you can edit created character.
-              + Edit Export File ( skin weights, placements for joints ).
-              + Edit Rig File ( number of bones, names ).
-              + after makind edits for example for skin weights you can save character file, remember to save it in rig pose not model pose.
-              + after making simple changes you don't have to rebuild rig controls, do it only if it is necessery.
-              + saved changes will be visible in animations that are using these rigs.
-            2. add character for animation.
-            - different functions of control rig.
-              + knee rotation.
-              + auto hips ( hips are automatically rotated by legs ).
-              + auto spine ( middle spine is also moving when moving ends of the spine ).
-              + auto shoulders ( nice important feature ).
-              + head settings ( for example world position ).
-              + spine stretch.
-              + arms stretch.
-              + FK and IK ON/OFF.
-              + FK and IK for fingers + pull vector.
-              + Master, Offset, Root ( main controlers ).
-            - Export motion ( exporting anim to fbx ).
-              + rotation interpolation ( quatrenian slerp or something, preferable for UE4 ).
-              + export morph targets.
-            - importing motions.
-              + import mocap data.
-              + importing selected animations.
-            - space switcher?
-            - pose editor.
-              + copy/paste position of the elements ( for example leg position can be copied to the other side ).
-              + load full body poses for character.
-              + save poses.
-            - match over frame range.
-            3. Exporting skeleton and mesh to UE4.
-            - pick from A.R.T menu "edit existing character".
-            - select your character and chose "edit export file".
-            - in outliner select root and mesh and go to file > export selection.
-
+            <ul class='list-rig-01'>
+            <li>1. build rig.</li>
+            <li>- creating skeleton ( set number of bones ).</li>
+              <ul class='list-rig-02'><li>+ add rig modules ( we can add more bones for different type of elements ).</li></ul>
+              <ul class='list-rig-02'><li>+ we can save created template at this stage.</li></ul>
+            <li>- creating placement for our skeleton ( putting elements and joints in desired position ).</li>
+              <ul class='list-rig-02'><li>+ you can build and rebuild your preview skeleton.</li></ul>
+              <ul class='list-rig-02'><li>+ symmetry mode for realtime symmetry ( you can tunr it OFF/ON ).</li></ul>
+              <ul class='list-rig-02'><li>+ you can lock mirror for selected elements.</li></ul>
+              <ul class='list-rig-02'><li>+ modifying mannequin mesh in mesh mode.</li></ul>
+            <li>- creating rig pose ( rig pose is your T-pose ).</li>
+              <ul class='list-rig-02'><li>+ program will try to put your rig from model pose into T-pose, you can modify it for better results.</li></ul>
+              <ul class='list-rig-02'><li>+ you can switch between model pose and rig pose.</li></ul>
+            <li>- weighting / skinning.</li>
+              <ul class='list-rig-02'><li>+ paint weight tool.</li></ul>
+              <ul class='list-rig-02'><li>+ you can export / import skin weights.</li></ul>
+              <ul class='list-rig-02'><li>+ you can mirror weights.</li></ul>
+              <ul class='list-rig-02'><li>+ you can set range of motions ( it bakes motions for selected bones to timeline in order to test skin weights ).</ul>
+            <li>- building control rig.</li>
+              <ul class='list-rig-02'><li>+ publishing our character ( set preset, set name of character ). Controls for rig will be automatically build.</ul>
+              <ul class='list-rig-02'><li>+ you can edit created character.</li></ul>
+              <ul class='list-rig-02'><li>+ Edit Export File ( skin weights, placements for joints ).</li></ul>
+              <ul class='list-rig-02'><li>+ Edit Rig File ( number of bones, names ).</li></ul>
+              <ul class='list-rig-02'><li>+ after makind edits for example for skin weights you can save character file, remember to save it in rig pose not model pose.</li></ul>
+              <ul class='list-rig-02'><li>+ after making simple changes you don't have to rebuild rig controls, do it only if it is necessery.</li></ul>
+              <ul class='list-rig-02'><li>+ saved changes will be visible in animations that are using these rigs.</li></ul>
+            </ul>
+            <ul class='list-rig-01'>
+            <li>2. add character for animation.</li>
+            <li>- different functions of control rig.</li>
+              <ul class='list-rig-02'><li>+ knee rotation.</li></ul>
+              <ul class='list-rig-02'><li>+ auto hips ( hips are automatically rotated by legs ).</li></ul>
+              <ul class='list-rig-02'><li>+ auto spine ( middle spine is also moving when moving ends of the spine ).</li></ul>
+              <ul class='list-rig-02'><li>+ auto shoulders ( nice important feature ).</li></ul>
+              <ul class='list-rig-02'><li>+ head settings ( for example world position ).</li></ul>
+              <ul class='list-rig-02'><li>+ spine stretch.</li></ul>
+              <ul class='list-rig-02'><li>+ arms stretch.</li></ul>
+              <ul class='list-rig-02'><li>+ FK and IK ON/OFF.</li></ul>
+              <ul class='list-rig-02'><li>+ FK and IK for fingers + pull vector.</li></ul>
+              <ul class='list-rig-02'><li>+ Master, Offset, Root ( main controlers ).</li></ul>
+            <li>- Export motion ( exporting anim to fbx ).</li>
+                <ul class='list-rig-02'><li>+ rotation interpolation ( quatrenian slerp or something, preferable for UE4 ).</li></ul>
+                <ul class='list-rig-02'><li>+ export morph targets.</li></ul>
+            <li>- importing motions.</li>
+                <ul class='list-rig-02'><li>+ import mocap data.</li></ul>
+                <ul class='list-rig-02'><li>+ importing selected animations.</li></ul>
+            <li>- space switcher?</li>
+            <li>- pose editor.</li>
+                <ul class='list-rig-02'><li>+ copy/paste position of the elements ( for example leg position can be copied to the other side ).</li></ul>
+                <ul class='list-rig-02'><li>+ load full body poses for character.</li></ul>
+                <ul class='list-rig-02'><li>+ save poses.</li></ul>
+            <li>- match over frame range.</li>
+            </ul>
+            <ul class='list-rig-01'>
+            <li>3. Exporting skeleton and mesh to UE4.</li>
+            <li>- pick from A.R.T menu "edit existing character".</li>
+            <li>- select your character and chose "edit export file".</li>
+            <li>- in outliner select root and mesh and go to file > export selection.</li>
+            </ul>
          </h4>
-          <img src="button_change_color\master_material.JPG">
-          <h4>Done. Now if you go into BP_Monitor and activate trigger you will be able to use E key to change color of the button inside BP_Button_OnOff.</h4>
         </div>
     </section>
 

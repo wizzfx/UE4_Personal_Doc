@@ -83,7 +83,19 @@ nav ul {
 nav li {
   padding: 3px;
 }
-ul .note {
+ul.list-rig-01 {
+  list-style-type: none;
+}
+ul.list-rig-01 li {
+  padding: 3px;
+}
+ul.list-rig-02 {
+  list-style-type: none;
+}
+ul.menu-lvl-01 {
+  list-style-type: circle;
+}
+ul.note {
   list-style-type: none;
   background-color: #fff7e6;
   min-width: 200px;
