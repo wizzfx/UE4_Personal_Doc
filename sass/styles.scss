@@ -1,0 +1,45 @@
+$background-color: #fff;
+
+body {background-color: $background-color; color: #2e2e2e; font-size: 20px;
+  font-family: Arial; font-weight: lighter; margin: 20px;}
+
+
+
+header { height: 120px; background-color: #fff; max-width: 1500px; padding: 20px;}
+
+h1 {  color: #2e2e2e; width:auto;margin-top: 18px;}
+h2 {  color: #000;width:auto;font-size: 16px;margin-top: 0px;}
+h3 {  color: #1d9c6b;width:auto;font-size: 16px;}
+h4 {  color: #000;width:auto;font-size: 16px;font-weight: normal;line-height: 22px;}
+
+h1, h2, a { text-decoration: none; color: #2e2e2e;}
+
+section { max-width: 1500px; border: 1px solid #e9eff2;padding: 20px; border-top: 0;}
+section img { display: block; margin-top: 20px; max-width:100%}
+footer { height: 100px;max-width: 1500px;padding: 20px;}
+nav { margin: auto;width: auto;}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #1d9c6b;
+}
+
+nav { margin: 0; max-width: 1530px; background-color: #fff; padding-left:10px; border: 1px solid #e9eff2;}
+nav ul { list-style-type: square; }
+nav li { padding: 3px;}
+
+ul.list-rig-01 { list-style-type: none; }
+ul.list-rig-01 li { padding: 3px; }
+ul.list-rig-02 { list-style-type: none; }
+
+ul.menu-lvl-01 { list-style-type: circle; }
+
+ul.note { list-style-type: none; background-color: #fff7e6; min-width: 200px;
+  padding: 10px;font-size: 16px; margin-top: 5px; margin-bottom: 5px;border: 1px solid #ffebbc;}
+.note-head { color: #ebba51; font-size: 16px; font-weight: bold; padding-left: 7px; padding-bottom: 7px; }
